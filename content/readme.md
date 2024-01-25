@@ -115,9 +115,9 @@
 3. Находим `PCI Express Root Complex`
 4. Раскрываем `PCI Express Root Complex` и находим несколько `Порт PCI Express Root`
 5. У какого-то `Порт PCI Express Root` мы находим `Расширяемый хост-контроллер` к которому подключена наша мышь
-![image](https://github.com/uzyanbaev/minimum-latency-windows/assets/108973583/a56c913f-1a50-4bab-b6c9-d442708ca2e9)
 6. Когда найдем хост-контроллер, к которому подключена мышь, нажимаем на свойства этого хост-контроллера
-![image](https://github.com/uzyanbaev/minimum-latency-windows/assets/108973583/e14be021-bcd0-4168-b880-54135014584f)
+![image](https://github.com/uzyanbaev/minimum-latency-windows/assets/108973583/300e2342-030b-4322-b67c-9a07cf6e1067)
+
 7. Видим `Размещение` в моем случае 10, 0, 3
 8. Запоминаем
 
@@ -125,7 +125,7 @@
 1. Открываем папку `Прерывания`
 2. Открываем файл `Interrupt Affinity Policy Tool`
 3. В этой программе мы должны найти подходящий хост-контроллер по Location Info, в моем случае 10, 0, 3
-![image](https://github.com/uzyanbaev/minimum-latency-windows/assets/108973583/68f75ae5-4aa5-4a8c-94a8-159726ca76d1)
+![image](https://github.com/uzyanbaev/minimum-latency-windows/assets/108973583/b53bd767-1dea-4294-8915-06f2ce4f59b4)
 4. Когда найдем подходящий хост-контроллер, нажимаем `Set Mask`
 5. Ставим любое ядро `0`, `2`, `4`, `6`, `8`, `10` и т.д.) исключая ядро `0` и ядро видеокарты
 6. Нажимаем OK
