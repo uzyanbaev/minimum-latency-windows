@@ -4,4 +4,4 @@
 
 <hr>
 
-[Смотреть документацию по оптимизации](https://github.com/uzyanbaev/minimum-latency-windows/blob/main/content/readme.md)
+[Смотреть руководство по оптимизации](https://github.com/uzyanbaev/minimum-latency-windows/blob/main/content/readme.md)
