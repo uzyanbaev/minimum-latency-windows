@@ -29,7 +29,10 @@
 
 ## Начало
 ### Установка необходимых программ:
-1. **Архив для оптимизации** [Скачать архив](https://drive.google.com/file/d/1IQX7x9KiDELF0Ze8mvYjV2JSp9eUBuro/view?usp=sharing)
+
+1. **Архив для оптимизации** [Скачать архив](https://github.com/uzyanbaev/minimum-latency-windows/files/14055996/optimization.zip)
+> Если не удалось установить, вот вторая ссылка: [Скачать архив](https://drive.google.com/file/d/1IQX7x9KiDELF0Ze8mvYjV2JSp9eUBuro/view?usp=sharing)
+
 2. **DirectX**
 [Скачать DirectX](https://www.microsoft.com/ru-ru/download/details.aspx?id=35)
 3. **Microsoft Visual C++ PACK**
